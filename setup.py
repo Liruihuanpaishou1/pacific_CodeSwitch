@@ -21,7 +21,7 @@ setup(
         "cytoolz",
         "numpy",
         "scikit-learn",
-            "fasttext-wheel@ git+https://github.com/messense/fasttext-wheel.git"
+            "fasttext"
 
     ],
     include_package_data=True,
