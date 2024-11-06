@@ -21,7 +21,8 @@ setup(
         "cytoolz",
         "numpy",
         "scikit-learn",
-        "fasttext-static"
+            "fasttext @ git+https://github.com/user/fasttext-wheel.git"
+
     ],
     include_package_data=True,
     long_description=read('README.md'),
