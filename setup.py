@@ -21,7 +21,7 @@ setup(
         "cytoolz",
         "numpy",
         "scikit-learn",
-            "fasttext"
+        "fasttext-wheel; platform_system=='Windows'",  # 使用 Windows 平台的非官方版本
 
     ],
     include_package_data=True,
