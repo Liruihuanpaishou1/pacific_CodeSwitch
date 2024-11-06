@@ -21,7 +21,7 @@ setup(
         "cytoolz",
         "numpy",
         "scikit-learn",
-        "fasttext"
+        "fasttext-static"
     ],
     include_package_data=True,
     long_description=read('README.md'),
